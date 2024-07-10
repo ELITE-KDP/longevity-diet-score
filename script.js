@@ -15,7 +15,7 @@ function calculateScore() {
     
     if (score >= 30) {
         resultText = `
-            <h2>Longevity Champion (30-35 points)</h2>
+            <h2>Longevity Champion (30-35 points) 🏆</h2>
             <p>You’re a true advocate of the longevity lifestyle! Your diet is well-balanced, nutrient-dense, and aligned with the principles of optimal health. Keep up the great work and continue exploring new ways to enhance your well-being.</p>
             <p><strong>Suggestions:</strong></p>
             <ul>
@@ -26,7 +26,7 @@ function calculateScore() {
         `;
     } else if (score >= 20) {
         resultText = `
-            <h2>Health Seeker (20-29 points)</h2>
+            <h2>Health Seeker (20-29 points) 🌟</h2>
             <p>You’re on the right path! Your diet shows a strong commitment to health, but there are areas for improvement. With some adjustments, you can elevate your eating habits to support long-term health and vitality.</p>
             <p><strong>Suggestions:</strong></p>
             <ul>
@@ -37,7 +37,7 @@ function calculateScore() {
         `;
     } else if (score >= 10) {
         resultText = `
-            <h2>Balanced Beginner (10-19 points)</h2>
+            <h2>Balanced Beginner (10-19 points) 🌿</h2>
             <p>You’re starting to understand the importance of a healthy diet, but there’s room to grow. Making conscious choices and small changes can significantly impact your overall health and longevity.</p>
             <p><strong>Suggestions:</strong></p>
             <ul>
@@ -48,7 +48,7 @@ function calculateScore() {
         `;
     } else {
         resultText = `
-            <h2>Nutrition Newbie (0-9 points)</h2>
+            <h2>Nutrition Newbie (0-9 points) 🌱</h2>
             <p>It looks like you’re at the beginning of your journey to better nutrition. Don’t be discouraged – everyone starts somewhere! With the guidance in this book, you can transform your eating habits and take control of your health.</p>
             <p><strong>Suggestions:</strong></p>
             <ul>
